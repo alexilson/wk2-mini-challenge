@@ -1,0 +1,68 @@
+:root {
+    --borderstyle: solid;
+    --textalign: center;
+    --font_code: Menlo,Consolas,Monaco,Liberation Mono,Lucida Console,monospace;
+    --code_align: left;
+}
+
+* {
+    color: grey;
+    background-color: black;
+    border-color: forestgreen;
+}
+
+header {
+    border-style: var(--borderstyle);
+    text-align: var(--textalign);
+}
+
+#intro {
+    border-style: var(--borderstyle);
+    text-align: var(--textalign);
+}
+
+.cards {
+    border-style: var(--borderstyle);
+    text-align: var(--textalign);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.card_title {
+    border-style: var(--borderstyle);
+    text-align: var(--textalign);
+    width: 90%
+}
+
+.card_subtitle {
+    border-style: var(--borderstyle);
+    text-align: var(--textalign);
+    font-size: 75%;
+}
+
+.card_ind {
+    width: 450px;
+    margin: 5px;
+}
+
+.language-css {
+    font-family: var(--font_code);
+    text-align: var(--code_align);
+    border-style: var(--borderstyle);
+    margin: 5px;
+
+}
+
+/* .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
+footer {
+    font-family: var(--font_code);
+    text-align: var(--textalign);
+}
+
